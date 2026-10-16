@@ -47,3 +47,7 @@ contracts/*/.testnet-deploy.env
 # A2A testnet proof (local, zero-value testnet secrets)
 apps/listener/.a2a-testnet.json
 apps/listener/a2a-registry.jsonl
+# Python cache & bytecode artifacts
+__pycache__/
+*.py[cod]
+*$py.class
